@@ -1,0 +1,147 @@
+html, body {
+    height: 30%;
+    width: 30%;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190614/ourmid/pngtree-blue-technology-web-banner-image_122453.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+#button{
+    background-color: blue;
+    border: 5px;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    right: -35px;
+    border-radius: 12px;
+}
+
+#full{
+    display: inline-block;
+    text-align: center;
+    overflow: auto;
+    margin: auto;
+    width: 1150%;
+    padding: 100 px 100px;
+}
+
+#blog{
+    color: red;
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#welcome{
+    position: relative;
+    right: -30px;
+    font-size: 30px;
+}
+
+#image{
+    position: relative;
+    right: -30px;
+    font-size: 20px;
+    padding-bottom: 90px;
+}
+
+#post-que{
+    position: relative;
+    right: 250px;
+    font-size: 40px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    
+}
+
+.post-buttons{
+    background-color: maroon;
+    border: 5px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    border-radius: 12px;
+    
+}
+
+
+#input2{
+    font-size: 30px;
+}
+
+#button-3{
+    background-color: red;
+    border: 5px;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+#post_mat {
+    background-color: lightyellow;
+}
+
+#username1{
+    font: bold;
+}
+
+
+
+#comment-bar{
+    position: relative;
+    right: 500px;
+    margin-top: 50px;
+    border-style: solid;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+}
+
+#comment_1{
+    font-size: 15px;
+}
+
+
+#full-que{
+    display:flex;
+    position: relative;
+    right: -40%;
+}
+
+@keyframes color-change {
+    0%   {color: red;}
+    15%  {color: yellow;}
+    30% {color: pink;}
+    45% {color: purple;}
+    60%  {color: blue;}
+    75% {color: green;}
+    90% {color: white;}
+    100% {color: black;}
+}
+
+@media (min-width: 300px) and (max-width:950px ){
+   #full{
+    position: relative;
+    width: 1250%;
+    right: -90px;
+    
+   }
+
+   #post-que{
+    right: 300px;
+   }
+
+   #comment-bar{
+    right: 350px;
+   }
+}
